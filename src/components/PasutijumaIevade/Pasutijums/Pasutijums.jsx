@@ -54,10 +54,10 @@ const Pasutijums = ({ grozs, pasutijums, nodrosinatPasutijumaSaksanu, error }) =
                 <br />
                 <Divider className={classes.divider} />
                 <br />
-                <Typography variant="subtitle2">Order ref: {pasutijums.customer_reference}</Typography>
+                <Typography variant="subtitle2">Pasūtījuma nr.: {pasutijums.customer_reference}</Typography>
             </div>
             <br />
-            <Button component={Link} to="/" variant="outlined" type="button">Back to Home</Button>
+            <Button component={Link} to="/" variant="outlined" type="button">Uz sākumlapu</Button>
         </>
     ) : vaiIrPabeigts ? (
         <>
@@ -69,7 +69,7 @@ const Pasutijums = ({ grozs, pasutijums, nodrosinatPasutijumaSaksanu, error }) =
                 <Typography variant="subtitle2"></Typography>
             </div>
             <br />
-            <Button component={Link} to="/" variant="outlined" type="button">Back to Home</Button>
+            <Button component={Link} to="/" variant="outlined" type="button">Uz sākumlapu</Button>
         </>
     ) : (
         <div className={classes.spinner}>
@@ -81,7 +81,7 @@ const Pasutijums = ({ grozs, pasutijums, nodrosinatPasutijumaSaksanu, error }) =
         <>
             <Typography>Error: {error}</Typography>
             <br />
-            <Button component={Link} to="/" variant="outlined" type="button">Back to Home</Button>
+            <Button component={Link} to="/" variant="outlined" type="button">Uz sākumlapu</Button>
         </>
     }
 

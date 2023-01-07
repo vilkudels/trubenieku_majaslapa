@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { commerce } from './lib/commerce';
-import { Produkti, Navigacija, Grozs, Pasutijums } from './components';
+import { Produkti, Navigacija, Grozs, Pasutijums, GalvenaLapa, Ekskursija, Kontakti } from './components';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const App = () => {
@@ -90,6 +90,9 @@ const App = () => {
                                                         nodrosinatPasutijumaSaksanu={nodrosinatPasutijumaSaksanu}
                                                         error={errorMessage} />}
                                                         />
+                <Route exact path='/home' element={<GalvenaLapa />} />
+                <Route exact path='/ekskursija' element={<Ekskursija />} />
+                <Route exact path='/kontakti' element={<Kontakti />} />
             </Routes>
         </div>
     </Router>
