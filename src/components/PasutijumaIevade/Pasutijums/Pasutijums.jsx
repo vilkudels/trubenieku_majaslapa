@@ -23,6 +23,7 @@ const Pasutijums = ({ grozs, pasutijums, nodrosinatPasutijumaSaksanu, error }) =
                 const markieris = await commerce.checkout.generateToken(grozs.id, { type: 'cart' });
 
                 uzstaditPasutijumaMarkieri(markieris);
+                
             } catch (error) {
                 navigate('/');
             }
@@ -40,6 +41,8 @@ const Pasutijums = ({ grozs, pasutijums, nodrosinatPasutijumaSaksanu, error }) =
 
         nakamaisSolis();
     }
+
+    console.log(shippingData);
 
     const timeout = () => {
         setTimeout(() => {

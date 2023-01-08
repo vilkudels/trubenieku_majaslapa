@@ -1,0 +1,38 @@
+"filename", "language", "Properties", "JSON", "JavaScript", "Markdown", "CSS", "JavaScript React", "HTML", "comment", "blank", "total"
+"c:\Users\37127\Desktop\trubenieku_majaslapa\.env", "Properties", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3
+"c:\Users\37127\Desktop\trubenieku_majaslapa\README.md", "Markdown", 0, 0, 0, 38, 0, 0, 0, 0, 33, 71
+"c:\Users\37127\Desktop\trubenieku_majaslapa\package-lock.json", "JSON", 0, 33840, 0, 0, 0, 0, 0, 0, 1, 33841
+"c:\Users\37127\Desktop\trubenieku_majaslapa\package.json", "JSON", 0, 65, 0, 0, 0, 0, 0, 0, 1, 66
+"c:\Users\37127\Desktop\trubenieku_majaslapa\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 20, 23, 1, 44
+"c:\Users\37127\Desktop\trubenieku_majaslapa\public\manifest.json", "JSON", 0, 25, 0, 0, 0, 0, 0, 0, 1, 26
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\App.js", "JavaScript", 0, 0, 73, 0, 0, 0, 0, 0, 29, 102
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Ekskursija\Ekskursija.jsx", "JavaScript React", 0, 0, 0, 0, 0, 121, 0, 95, 14, 230
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Ekskursija\EkskursijasPieteikums.jsx", "JavaScript React", 0, 0, 0, 0, 0, 66, 0, 0, 9, 75
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Ekskursija\style.css", "CSS", 0, 0, 0, 0, 8, 0, 0, 0, 3, 11
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Ekskursija\styleEx.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\GalvenaLapa\GalvenaLapa.jsx", "JavaScript React", 0, 0, 0, 0, 0, 167, 0, 0, 3, 170
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\GalvenaLapa\style.css", "CSS", 0, 0, 0, 0, 65, 0, 0, 0, 15, 80
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\GalvenaLapa\styles.js", "JavaScript", 0, 0, 29, 0, 0, 0, 0, 0, 1, 30
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Grozs\GrozaVieniba\GrozaVieniba.jsx", "JavaScript React", 0, 0, 0, 0, 0, 26, 0, 0, 6, 32
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Grozs\GrozaVieniba\styles.js", "JavaScript", 0, 0, 17, 0, 0, 0, 0, 0, 1, 18
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Grozs\Grozs.jsx", "JavaScript React", 0, 0, 0, 0, 0, 42, 0, 0, 8, 50
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Grozs\styles.js", "JavaScript", 0, 0, 29, 0, 0, 0, 0, 0, 1, 30
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Kontakti\Kontakti.jsx", "JavaScript React", 0, 0, 0, 0, 0, 84, 0, 0, 4, 88
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Kontakti\style.css", "CSS", 0, 0, 0, 0, 13, 0, 0, 0, 3, 16
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Navigacija\Navigacija.jsx", "JavaScript React", 0, 0, 0, 0, 0, 89, 0, 0, 5, 94
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Navigacija\styles.js", "JavaScript", 0, 0, 65, 0, 0, 0, 0, 1, 2, 68
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\PasutijumaIevade\AdresesIevadforma.jsx", "JavaScript React", 0, 0, 0, 0, 0, 94, 0, 0, 15, 109
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\PasutijumaIevade\ApmaksasIevadforma.jsx", "JavaScript React", 0, 0, 0, 0, 0, 58, 0, 0, 13, 71
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\PasutijumaIevade\Kopsavilkums.jsx", "JavaScript React", 0, 0, 0, 0, 0, 30, 0, 0, 4, 34
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\PasutijumaIevade\PashaAizpildamieLauki.jsx", "JavaScript React", 0, 0, 0, 0, 0, 26, 0, 0, 5, 31
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\PasutijumaIevade\Pasutijums\Pasutijums.jsx", "JavaScript React", 0, 0, 0, 0, 0, 98, 0, 0, 21, 119
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\PasutijumaIevade\Pasutijums\styles.js", "JavaScript", 0, 0, 51, 0, 0, 0, 0, 0, 1, 52
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Produkti\Produkti.jsx", "JavaScript React", 0, 0, 0, 0, 0, 30, 0, 0, 6, 36
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Produkti\Produkts\Produkts.jsx", "JavaScript React", 0, 0, 0, 0, 0, 29, 0, 0, 4, 33
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Produkti\Produkts\style.css", "CSS", 0, 0, 0, 0, 54, 0, 0, 0, 13, 67
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Produkti\Produkts\styles.js", "JavaScript", 0, 0, 18, 0, 0, 0, 0, 0, 1, 19
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\Produkti\styles.js", "JavaScript", 0, 0, 11, 0, 0, 0, 0, 0, 1, 12
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\components\index.js", "JavaScript", 0, 0, 9, 0, 0, 0, 0, 0, 1, 10
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\index.js", "JavaScript", 0, 0, 7, 0, 0, 0, 0, 1, 3, 11
+"c:\Users\37127\Desktop\trubenieku_majaslapa\src\lib\commerce.js", "JavaScript", 0, 0, 2, 0, 0, 0, 0, 0, 1, 3
+"Total", "-", 3, 33930, 311, 38, 140, 960, 20, 120, 231, 35753

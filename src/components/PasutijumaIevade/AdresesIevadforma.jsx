@@ -59,6 +59,7 @@ const AdresesIevadforma = ({ pasutijumaMarkieris, test }) => {
           <Grid container spacing={3}>
             <Ievadlauki required name="vards" label="Vārds" />
             <Ievadlauki required name="uzvards" label="Uzvārds" />
+            <Ievadlauki required name="telNr" label="Telefona nr." />
             <Ievadlauki required name="adrese" label="Iela, māja" />
             <Ievadlauki required name="epasts" label="E-pasts" />
             <Ievadlauki required name="pilseta" label="Pilsēta/Ciems" />

@@ -11,6 +11,7 @@ const ApmaksasIevadforma = ({ pasutijumaMarkieris, nakamaisSolis, ieprieksejaisS
   const handleSubmit = async (event, elements, stripe) => {
     event.preventDefault();
 
+
     if (!stripe || !elements) return;
 
     const cardElement = elements.getElement(CardElement);
@@ -32,6 +33,9 @@ const ApmaksasIevadforma = ({ pasutijumaMarkieris, nakamaisSolis, ieprieksejaisS
             payment_method_id: paymentMethod.id,
           },
         },
+        extra_fields: { 
+          ['extr_kd6Ll2mkZ5V2mj']: shippingData.telNr
+        }
       };
 
       nodrosinatPasutijumaSaksanu(pasutijumaMarkieris.id, orderData);
@@ -42,7 +46,7 @@ const ApmaksasIevadforma = ({ pasutijumaMarkieris, nakamaisSolis, ieprieksejaisS
 
   return (
     <>
-      <Kopsavilkums pasutijumaMarkieris={pasutijumaMarkieris} />
+      <Kopsavilkums pasutijumaMarkieris={pasutijumaMarkieris} shippingData={shippingData} />
       <Divider />
       <Typography variant="h6" gutterBottom style={{ margin: '20px 0' }}>Apmaksas metode</Typography>
       <Elements stripe={stripePromise}>

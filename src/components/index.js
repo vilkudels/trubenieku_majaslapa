@@ -7,3 +7,4 @@ export { default as Pasutijums } from './PasutijumaIevade/Pasutijums/Pasutijums'
 export { default as GalvenaLapa } from './GalvenaLapa/GalvenaLapa';
 export { default as Ekskursija } from './Ekskursija/Ekskursija';
 export { default as Kontakti } from './Kontakti/Kontakti';
+export { default as EkskursijasPieteikums} from './Ekskursija/EkskursijasPieteikums';

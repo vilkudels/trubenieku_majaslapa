@@ -9,7 +9,8 @@ const App = () => {
   const [pasutijums, uzstaditPasutijumu] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
 
-  const paraditVisusProduktus = async () => {
+
+   const paraditVisusProduktus = async () => {
       const { data } = await commerce.products.list();
 
       uzstaditProduktus(data);
@@ -70,8 +71,8 @@ const App = () => {
   }, []);
 
   return (
+
     <Router>
-        <div>
             <Navigacija totalItems={grozs.total_items} />
             <Routes>
                 <Route exact path="/" element={<Produkti 
@@ -94,7 +95,6 @@ const App = () => {
                 <Route exact path='/ekskursija' element={<Ekskursija />} />
                 <Route exact path='/kontakti' element={<Kontakti />} />
             </Routes>
-        </div>
     </Router>
   )
 }

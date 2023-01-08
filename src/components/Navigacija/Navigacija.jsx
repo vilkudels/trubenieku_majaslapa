@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography, CssBaseline } from '@material-ui/core';
-import { ShoppingCart } from '@material-ui/icons';
+import { ShoppingCart, PersonOutlineOutlined, Facebook, Instagram } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -18,8 +18,8 @@ const Navbar = ( {totalItems} ) => {
         <>
         <nav className="navbar navbar-light navbar-expand-md fixed-top">
             <div className="container">
-            <div div className="col-2 pl-md-0 text-left">
-                <a href="#top">
+            <div div className="col-md-2 pl-md-0 text-left">
+                <a href="/home">
                 <img src={logo} height={70} alt="image" />
                 </a>
             </div>
@@ -35,7 +35,7 @@ const Navbar = ( {totalItems} ) => {
                 <span className="navbar-toggler-icon" />
             </Button>
             <div
-                className="collapse navbar-collapse justify-content-center col-md-8"
+                className="collapse navbar-collapse justify-content-center col-md-6"
                 id="navbarNav4"
             >
                 <ul className="navbar-nav justify-content-center nav-font">
@@ -61,26 +61,30 @@ const Navbar = ( {totalItems} ) => {
                 </li>
                 </ul>
             </div>
-            {(location.pathname === '/' || location.pathname === '/home') && (
-                    <div className={classes.button}>
-                        <IconButton component={Link} to="/grozs" aria-label="Show cart items" color="inherit">
+            <div className='col-md-2 d-flex'>
+            {(location.pathname === '/' || location.pathname === '/home' || location.pathname === '/ekskursija' || location.pathname === '/kontakti') && (
+                    <div>
+                        <IconButton component={Link} to="/grozs" aria-label="Parādīt grozu">
                             <Badge badgeContent={totalItems} color="secondary" overlap="rectangular">
                                 <ShoppingCart />
                             </Badge>
                         </IconButton>
                     </div> )}
-            <ul className="navbar-nav col-2 justify-content-end d-none d-md-flex">
-                <li className="nav-item">
-                <a className="nav-link" href="#">
-                    <FontAwesomeIcon icon={faFacebookF} />
+            <div>
+                <a href='https://www.facebook.com/trubenieki/'>
+                <IconButton aria-label="Facebook">
+                    <Facebook />
+                </IconButton>
                 </a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="#">
-                    <FontAwesomeIcon icon={faInstagram} />
+            </div>
+            <div>
+                <a href='https://www.instagram.com/trubenieki/'>
+                <IconButton aria-label="Instagram">
+                    <Instagram />
+                </IconButton>
                 </a>
-                </li>
-            </ul>
+            </div>
+            </div>
             </div>
         </nav>
         </>

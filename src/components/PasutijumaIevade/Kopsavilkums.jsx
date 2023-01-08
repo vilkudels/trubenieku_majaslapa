@@ -13,6 +13,12 @@ return (
           <Typography variant="body2">{produkts.line_total.formatted_with_symbol}</Typography>
         </ListItem>
       ))}
+      {pasutijumaMarkieris.line_items.map((produkts) => (
+        <ListItem style={{ padding: '10px 0' }} key={produkts.name}>
+          <ListItemText primary={produkts.name} secondary={`Skaits: ${produkts.quantity}`} />
+          <Typography variant="body2">{produkts.line_total.formatted_with_symbol}</Typography>
+        </ListItem>
+      ))}
       <ListItem style={{ padding: '10px 0' }}>
         <ListItemText primary="Apmaksājamā summa" />
         <Typography variant="subtitle1" style={{ fontWeight: 700 }}>
